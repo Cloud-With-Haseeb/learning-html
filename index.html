@@ -4,30 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Journey</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: pink;">
-    <h1 style="text-align: center;"><strong>Learning HTML Attributes & Elements</strong></h1>
-    <h2 style="color: blueviolet;">This is Houdini Coder</h2>
-    <pre style="color: brown; font-family: Arial, Helvetica, sans-serif;">
-Today I am going to teach you my coding skills peeps
-Before learning coding, there are few things before
-starting your coding journey. Coding needs practice.
-    </pre>
+<body>
+    <header>
+        <h1 class="title">Learning HTML Attributes & Elements</h1>
+        <h2 class="subtitle">This is Houdini Coder</h2>
+    </header>
 
-    <hr style="background-color: red; height: 2px; border: none;">
-    <!--This comment is used for the learning purpose-->
+    <section class="intro">
+        <p class="preformatted">
+Today I am going to teach you my coding skills peeps.
+Before learning coding, there are a few things to know
+before starting your coding journey. Coding needs practice.
+        </p>
+    </section>
 
-    <h2>About Me</h2>
-    <p style="font-size: large;">
-        I am a professional who has strong experience in the customer care domain. I worked in multiple departments; few are mentioned below:
-    </p>
-    <!--This is used for the learning purpose-->
-    <ul>
-        <li>Corporate Trainer</li>
-        <li>Quality Assurance</li>
-        <li>Level 2 Escalation Expert</li>
-        <li>DSAT Recovery Specialist</li>
-        <li>Multi-Channel Customer Support</li>
-    </ul>
+    <hr class="divider">
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p class="about-text">
+            I am a professional with strong experience in the customer care domain. 
+            I worked in multiple departments; a few are mentioned below:
+        </p>
+
+        <ul class="roles">
+            <li>Corporate Trainer</li>
+            <li>Quality Assurance</li>
+            <li>Level 2 Escalation Expert</li>
+            <li>DSAT Recovery Specialist</li>
+            <li>Multi-Channel Customer Support</li>
+        </ul>
+
+        <p class="testing-element"><strong>Testing new element</strong></p>
+    </section>
 </body>
 </html>

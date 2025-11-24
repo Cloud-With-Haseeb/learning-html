@@ -1,0 +1,50 @@
+/* General body styles */
+body {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.subtitle {
+    color: blueviolet;
+    text-align: center;
+}
+
+/* Preformatted intro section */
+.preformatted {
+    color: brown;
+    white-space: pre-line; /* preserves line breaks like <pre> */
+}
+
+/* Divider */
+.divider {
+    background-color: red;
+    height: 2px;
+    border: none;
+    margin: 20px 0;
+}
+
+/* About Me Section */
+.about-text {
+    font-size: large;
+    color: black;
+}
+
+.roles li {
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Testing element paragraph */
+.testing-element {
+    color: black;
+    font-weight: bold;
+}
